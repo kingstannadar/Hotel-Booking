@@ -36,5 +36,19 @@ This repository documents a manual testing project for a hotel booking applicati
 - Microsoft Excel — test design, execution tracking, and defect documentation
 - GitHub — project documentation and version control
 
+## Test Execution Summary
+
+The latest reconciled Defect Reports workbook records 221 primary test cases across four modules:
+
+| Module | Total | PASS | FAIL | Pending |
+|---|---:|---:|---:|---:|
+| Registration | 20 | 19 | 1 | 0 |
+| Login | 20 | 20 | 0 | 0 |
+| My Page | 24 | 24 | 0 | 0 |
+| Reservation | 157 | 151 | 2 | 4 |
+| **Total** | **221** | **214** | **3** | **4** |
+
+Supporting worksheets are not included in these totals because they contain supplementary or overlapping cases. Pending cases require requirement clarification and are not counted as confirmed defects.
+
 ## Project Status
 This is a learning project. Results reflect the observations recorded during manual testing; potential issues remain pending where the expected requirement has not been confirmed.
