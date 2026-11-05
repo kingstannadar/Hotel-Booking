@@ -1,42 +1,39 @@
-# Hotel Booking Application – Manual Testing Project
+# Hotel Booking Application Testing
 
 ## Project Overview
-This project focuses on manual testing of a Hotel Booking Application to evaluate its functionality, usability, and validation behaviour.
-
-The objective is to identify defects, verify expected results, and document test execution outcomes.
+This repository documents a manual testing project for a hotel booking application. The project evaluates core functionality, usability, input validation, booking rules, and reservation outcomes.
 
 ## Project Objectives
-- Understand the application's functionality.
-- Create and execute manual test cases.
-- Validate positive and negative scenarios.
-- Identify and report defects.
-- Document actual and expected results.
+- Understand the application's functionality and business rules.
+- Design and execute manual test cases.
+- Cover positive, negative, and boundary-value scenarios.
+- Record actual results and execution status.
+- Document observed defects and retest outcomes.
 
 ## Testing Scope
-The project covers the following areas:
-- Hotel and room booking functionality
-- Booking plan validation
-- Reservation details
-- Input field validation
-- Booking confirmation
+- Registration and login
+- My Page and profile features
+- Reservation plans and booking forms
+- Guest details and input validation
+- Check-in/check-out dates and stay limits
+- Pricing, reservation submission, and confirmation
 
-## Testing Approach
-- Manual Testing
-- Functional Testing
-- Positive Testing
-- Negative Testing
-- Boundary Value Testing
-- Validation Testing
+## Testing Types
+- Manual and functional testing
+- Positive and negative testing
+- Boundary-value and validation testing
+- Retesting of observed defects
 
-## Test Deliverables
-- Test Scenarios
-- Test Cases
-- Test Execution Results
-- Defect Reports
+## Repository Contents
+- [Test Scenarios](Test-Scenarios/README.md)
+- [Defect Reports](Defect-Reports/README.md)
+- [Test Execution Results](Test-Execution-Results/README.md)
 
-## Tools Used
-- Microsoft Excel – Test case documentation and execution tracking
-- GitHub – Project version control and documentation
+The master Excel workbook is intended to remain the source of truth for detailed test cases and execution records. Supporting workbooks in the folders above provide focused views of the relevant project artifacts.
+
+## Tools
+- Microsoft Excel — test design, execution tracking, and defect documentation
+- GitHub — project documentation and version control
 
 ## Project Status
-Manual testing activities and documentation are maintained as part of this learning projects.
+This is a learning project. Results reflect the observations recorded during manual testing; potential issues remain pending where the expected requirement has not yet been confirmed.
