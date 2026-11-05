@@ -1,54 +1,42 @@
-# Hotel Booking Application Testing
+# Manual Testing Projects
 
-## Project Overview
-This repository documents a manual testing project for a hotel booking application. The project evaluates core functionality, usability, input validation, booking rules, and reservation outcomes.
+This repository contains self-directed manual QA projects documenting test planning, test scenario and test case design, execution tracking, defect identification and reporting.
 
-## Project Objectives
-- Understand the application's functionality and business rules.
-- Design and execute manual test cases.
-- Cover positive, negative, and boundary-value scenarios.
-- Record actual results and execution status.
-- Document observed defects and retest outcomes.
+## Project 1: Hotel Booking Application
 
-## Testing Scope
-- Registration and login
-- My Page and profile features
-- Reservation plans and booking forms
-- Guest details and input validation
-- Check-in/check-out dates and stay limits
-- Pricing, reservation submission, and confirmation
+Manual testing coverage for Registration, Login, My Page and Reservation.
 
-## Testing Types
+- **Primary test cases:** 221
+- **Execution outcome:** 214 Passed, 3 Failed, 4 Pending
+- **Deliverables:** master Excel workbook, test scenarios, defect reports and execution documentation
+
+Start here: [Hotel Booking project overview](PORTFOLIO.md#project-1-hotel-booking-application)
+
+## Project 2: Flight Booking Application
+
+Manual testing coverage for the Agile Travel flight booking workflow, including login, sign-up, flight selection, passenger details, payment and booking confirmation.
+
+- **Test cases designed/recorded:** 79 (33 in Zephyr and 46 additional CSV cases)
+- **Additional CSV tracker:** 2 Failed, 44 Not Executed
+- **Defects reported:** 3 (FSP-17, FSP-18 and FSP-19)
+- **Tools:** Jira, Zephyr, CSV and GitHub
+
+Start here: [Flight Booking project overview](Flight-Booking/README.md)
+
+## Tools and Skills
+
 - Manual and functional testing
-- Positive and negative testing
-- Boundary-value and validation testing
-- Retesting of observed defects
+- Positive, negative and boundary-value testing
+- Test scenario and test case design
+- Test execution tracking and defect reporting
+- Jira and Zephyr
+- Microsoft Excel / CSV
+- GitHub documentation and version control
 
-## Project Files
-- [Master Hotel Booking Excel Workbook](Final%20Project%20Hotel%20Booking.xlsx) — detailed test cases and recorded execution results.
-- [Test Scenarios Excel Workbook](Test-Scenarios/Hotel_Booking_Test_Scenarios.xlsx)
-- [Test Scenarios Documentation](Test-Scenarios/README.md)
-- [Defect Reports Excel Workbook](Defect-Reports/Hotel_Booking_Defect_Reports.xlsx)
-- [Defect Reports Documentation](Defect-Reports/README.md)
-- [Test Execution Results Documentation](Test-Execution-Results/README.md)
+## Portfolio
 
-## Tools
-- Microsoft Excel — test design, execution tracking, and defect documentation
-- GitHub — project documentation and version control
+See [PORTFOLIO.md](PORTFOLIO.md) for the combined project portfolio and deliverables.
 
-## Test Execution Summary
+## Project Note
 
-The latest reconciled Defect Reports workbook records 221 primary test cases across four modules:
-
-| Module | Total | PASS | FAIL | Pending |
-|---|---:|---:|---:|---:|
-| Registration | 20 | 19 | 1 | 0 |
-| Login | 20 | 20 | 0 | 0 |
-| My Page | 24 | 24 | 0 | 0 |
-| Reservation | 157 | 151 | 2 | 4 |
-| **Total** | **221** | **214** | **3** | **4** |
-
-Supporting worksheets are not included in these totals because they contain supplementary or overlapping cases. Pending cases require requirement clarification and are not counted as confirmed defects.
-
-## Project Status
-This is a learning project. Results reflect the observations recorded during manual testing; potential issues remain pending where the expected requirement has not been confirmed.
+These are self-directed learning projects. Reported outcomes reflect the recorded observations and execution status in the project artefacts. Pending and not-executed cases are not represented as successful executions.
