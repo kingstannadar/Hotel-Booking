@@ -1,6 +1,10 @@
 # Defect Reports
 
-This folder contains defects and potential issues identified during manual testing of the Hotel Booking Application.
+This folder contains the defect register and supporting defect documentation for the Hotel Booking Application.
+
+## Files
+- [Hotel Booking Defect Reports.xlsx](Hotel_Booking_Defect_Reports.xlsx) — defect observations, related test cases, and review notes.
+- [Defect Report Register](Defect-Report-Register.md) — concise Markdown summary of the key findings.
 
 ## Reporting Guidelines
 Each confirmed defect should include:
@@ -14,6 +18,4 @@ Each confirmed defect should include:
 - Status and related test case IDs
 
 ## Status and Evidence
-Do not classify an observation as a confirmed defect when the expected behaviour is not established by the application requirements. Keep such observations marked as pending requirement confirmation.
-
-The detailed defect records are maintained in the master Hotel Booking Excel workbook. A focused defect workbook may be added here when it has been generated and verified.
+Some observations remain pending because the expected behaviour has not yet been confirmed against an approved requirement. They are clearly labelled as pending and should not be treated as confirmed defects until the requirement is established.
