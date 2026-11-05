@@ -1,65 +1,61 @@
-# Manual Testing Portfolio – Hotel Booking Application
+# Manual Testing Portfolio – Kingstan Nadar
 
-## Project at a Glance
+## Profile
+
+Aspiring Manual Tester with practical learning-project experience in test planning, test scenario and test case design, manual execution, defect identification and reporting. This portfolio presents two self-directed QA projects.
+
+## Project 1: Hotel Booking Application
 
 | Item | Details |
 |---|---|
-| Project | Hotel Booking Application – Manual Testing |
-| Project type | Self-directed QA learning project |
-| Testing approach | Manual, functional, positive, negative, and boundary-value testing |
-| Test coverage | Registration, Login, My Page, and Reservation |
-| Test cases | 221 primary test cases |
+| Project type | Self-directed manual testing |
+| Coverage | Registration, Login, My Page and Reservation |
+| Primary test cases | 221 |
 | Execution outcome | 214 Passed, 3 Failed, 4 Pending |
-| Tools used | Microsoft Excel and GitHub |
+| Tools | Microsoft Excel, GitHub |
 
-## Project Objective
+**Objective:** Practise the end-to-end manual testing workflow by analysing application behaviour, preparing test scenarios and test cases, executing tests, recording actual results and documenting observed defects.
 
-To practise the end-to-end manual testing workflow by understanding application behaviour, preparing test scenarios and test cases, executing tests, recording actual results, and documenting observed defects.
-
-## Scope of Testing
-
-- **Registration:** mandatory fields, email validation, duplicate email, password rules, and telephone validation.
-- **Login:** required-field validation, email format, credential validation, and logout behaviour.
-- **My Page:** profile image upload and file-size validation, image controls, and account deletion flow.
-- **Reservation:** reservation plans, guest details, date selection, stay limits, input validation, and booking submission.
-
-## Test Execution Summary
-
-| Module | Total | Passed | Failed | Pending |
-|---|---:|---:|---:|---:|
-| Registration | 20 | 19 | 1 | 0 |
-| Login | 20 | 20 | 0 | 0 |
-| My Page | 24 | 24 | 0 | 0 |
-| Reservation | 157 | 151 | 2 | 4 |
-| **Total** | **221** | **214** | **3** | **4** |
-
-Pending cases require requirement clarification and are not treated as confirmed defects. The totals represent primary test cases; supplementary or overlapping cases are excluded.
-
-## Deliverables
-
-1. **Master test case and execution workbook** – detailed test cases, actual results, and execution status.
-2. **Test scenarios workbook** – high-level validation goals organised for the application.
-3. **Defect reports workbook** – documented issues observed during execution.
-4. **Project README files** – repository and deliverable documentation.
-
-## Skills Practised
-
-- Understanding application behaviour and test scope
-- Writing test scenarios and test cases
-- Positive, negative, and boundary-value testing
-- Input and field validation testing
-- Executing test cases and recording actual results
-- Identifying and documenting defects
-- Maintaining QA artefacts in Excel
-- Organising and documenting a project in GitHub
-
-## Project Files
-
+**Deliverables:**
 - [Master Hotel Booking Excel Workbook](Final%20Project%20Hotel%20Booking.xlsx)
 - [Test Scenarios Workbook](Test-Scenarios/Hotel_Booking_Test_Scenarios.xlsx)
 - [Defect Reports Workbook](Defect-Reports/Hotel_Booking_Defect_Reports.xlsx)
-- [Repository README](README.md)
+- [Project README](README.md)
 
-## Project Note
+## Project 2: Flight Booking Application
 
-This is a self-directed learning project. The execution summary reflects the results recorded during testing. Failed cases represent observed deviations; pending cases require clarification of expected behaviour before a defect can be confirmed.
+| Item | Details |
+|---|---|
+| Application | Agile Travel – travel.agileway.net |
+| Project type | Self-directed manual testing |
+| Coverage | Login, sign-up, flight selection, passenger details, payments, booking confirmation, cancellation and session checks |
+| Test cases designed/recorded | 79 (33 Zephyr + 46 additional CSV cases) |
+| Additional CSV tracker | 2 Failed, 44 Not Executed |
+| Defects reported | 3 – FSP-17, FSP-18 and FSP-19 |
+| Tools | Jira, Zephyr, CSV and GitHub |
+
+**Execution note:** The 2 Failed and 44 Not Executed statuses apply to the 46 additional CSV cases. Execution results for the 33 Zephyr cases were not provided in the source files, so no combined execution percentage is claimed.
+
+**Deliverables:**
+- [Flight Booking project overview](Flight-Booking/README.md)
+- [Test Plan](Flight-Booking/docs/01-test-plan.md)
+- [Additional Test Cases (CSV)](Flight-Booking/test-cases/new-test-cases.csv)
+- [Existing Zephyr Test Cases](Flight-Booking/test-cases/existing-zephyr-test-cases.md)
+- [Defect Reports](Flight-Booking/bug-reports/)
+- [Traceability Matrix](Flight-Booking/docs/02-traceability-matrix.md)
+- [Test Summary Report](Flight-Booking/docs/03-test-summary-report.md)
+
+## Skills Practised
+
+- Understanding application workflows and defining test scope
+- Writing test scenarios and test cases
+- Positive, negative and boundary-value testing
+- Input validation and usability testing
+- Executing test cases and recording actual results
+- Identifying, documenting and retesting defects
+- Requirement-to-test traceability
+- Jira, Zephyr, Microsoft Excel / CSV and GitHub
+
+## Portfolio Note
+
+These are self-directed learning projects, not commercial QA employment. Results reflect the project records. Not-executed and pending cases are not represented as successful executions.
