@@ -24,16 +24,15 @@ This repository documents a manual testing project for a hotel booking applicati
 - Boundary-value and validation testing
 - Retesting of observed defects
 
-## Repository Contents
+## Project Files
+- [Master Hotel Booking Excel Workbook](Final%20Project%20Hotel%20Booking.xlsx) — detailed test cases and recorded execution results.
 - [Test Scenarios](Test-Scenarios/README.md)
 - [Defect Reports](Defect-Reports/README.md)
 - [Test Execution Results](Test-Execution-Results/README.md)
-
-The master Excel workbook is intended to remain the source of truth for detailed test cases and execution records. Supporting workbooks in the folders above provide focused views of the relevant project artifacts.
 
 ## Tools
 - Microsoft Excel — test design, execution tracking, and defect documentation
 - GitHub — project documentation and version control
 
 ## Project Status
-This is a learning project. Results reflect the observations recorded during manual testing; potential issues remain pending where the expected requirement has not yet been confirmed.
+This is a learning project. Results reflect the observations recorded during manual testing; potential issues remain pending where the expected requirement has not been confirmed.
