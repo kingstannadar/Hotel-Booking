@@ -26,9 +26,11 @@ This repository documents a manual testing project for a hotel booking applicati
 
 ## Project Files
 - [Master Hotel Booking Excel Workbook](Final%20Project%20Hotel%20Booking.xlsx) — detailed test cases and recorded execution results.
-- [Test Scenarios](Test-Scenarios/README.md)
-- [Defect Reports](Defect-Reports/README.md)
-- [Test Execution Results](Test-Execution-Results/README.md)
+- [Test Scenarios Excel Workbook](Test-Scenarios/Hotel_Booking_Test_Scenarios.xlsx)
+- [Test Scenarios Documentation](Test-Scenarios/README.md)
+- [Defect Reports Excel Workbook](Defect-Reports/Hotel_Booking_Defect_Reports.xlsx)
+- [Defect Reports Documentation](Defect-Reports/README.md)
+- [Test Execution Results Documentation](Test-Execution-Results/README.md)
 
 ## Tools
 - Microsoft Excel — test design, execution tracking, and defect documentation
