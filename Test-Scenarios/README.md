@@ -1,17 +1,22 @@
 # Test Scenarios
 
-This folder contains the high-level test scenario coverage for the Hotel Booking Application.
+This folder contains the Hotel Booking Application test scenario workbook and supporting catalogue documentation.
 
-Scenario coverage is organised around the main application modules:
+## Files
+- [Hotel Booking Test Scenarios.xlsx](Hotel_Booking_Test_Scenarios.xlsx) — scenario records organised for review by application module.
+- [Test Scenario Catalogue](Test-Scenario-Catalogue.md) — a concise Markdown overview of the main coverage areas.
+
+## Coverage
 - Registration
 - Login
-- My Page
-- Reservation and booking plans
+- My Page and profile features
+- Reservation plans and booking rules
 - Guest details and input validation
-- Check-in/check-out date rules
+- Check-in/check-out dates and stay limits
 - Pricing and reservation confirmation
 
-The detailed test case titles, preconditions, test data, steps, expected results, actual results, and execution statuses are maintained in the master Hotel Booking Excel workbook. A separate scenario workbook should contain only the scenario-level catalogue and must not be treated as a replacement for the detailed test cases.
+## Detailed Test Execution
+The master workbook in the repository root, [Final Project Hotel Booking.xlsx](../Final%20Project%20Hotel%20Booking.xlsx), contains the detailed test cases and recorded execution results, including actual results, status, and defect references.
 
 ## Source of Truth
-Use the master workbook in the repository root for the latest approved test case and execution records.
+Use the master workbook for the latest detailed test execution records. Use the scenario workbook for scenario-level coverage.
